@@ -1,0 +1,136 @@
+
+body {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin: 0px;
+    background-color: #F2EEE7;
+}
+
+.return1 {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+    float: right;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+
+.return1:hover {
+    /*text-shadow: 0px 0px 5px #aaa9ad;*/
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+
+.return1:visited {
+    color: none;
+}
+
+#title1 {
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: 5px;
+    font-weight: bold;
+}
+
+#title1:hover {
+    text-shadow: 0px 0px 5px #aaa9ad;  
+}
+
+#heading {
+    padding: 40px 50px 20px 50px;
+    box-shadow: 0px 5px 5px black;
+}
+
+#information {
+    padding: 0px 80px 0px 80px;
+    font-size: 48px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 500px;
+    gap: 10px;
+    grid-auto-rows: minmax(500px, 1px);
+    background-color: #F2EEE7;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 1;
+    border: 4px solid black;
+    box-shadow: 0px 0px 10px black;
+  }
+  
+  #space {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #space2 {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+#flow {
+    inline-size: 800px;
+    overflow-wrap: break-word;
+    font-size: 30px;
+    margin-left: 80px;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+  }
+
+  img {
+    max-height: 450px;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 25px;
+  }
+
+  #centerBMW {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 50px;
+  }
