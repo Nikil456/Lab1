@@ -12,7 +12,7 @@ body {
     color: white;
     background-color: black;
     font-size: 30px;
-    float: right;
+    margin-left: 65vw;
     padding: 10px;
     transition-duration: 0.4s;
 }
@@ -34,6 +34,7 @@ body {
     letter-spacing: -4px;
     word-spacing: 5px;
     font-weight: bold;
+    left: 20vw;
 }
 
 #title1:hover {
@@ -41,13 +42,36 @@ body {
 }
 
 #heading {
-    padding: 40px 50px 20px 50px;
+    padding: 40px 50px 40px 50px;
     box-shadow: 0px 5px 5px grey;
+    background-color: #F2EEE7;
+    position: sticky;
+    display: flex;
+    top: -25px;
+    z-index: 100;
+    transition: 0.2s;
 }
 
-#information {
+#inner {
+  height: 40px;
+  top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.information {
     padding: 0px 80px 0px 80px;
     font-size: 48px;
+}
+
+#section1 {
+  text-decoration: none;
+}
+
+#section2 {
+  text-decoration: none;
 }
 
 .grid {
@@ -116,6 +140,7 @@ body {
 
   h1 {
     margin-bottom: 0px;
+    margin-top: 0px;
   }
 
   img {
@@ -133,4 +158,25 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 50px;
+  }
+
+  #arrow {
+    box-sizing: border-box;
+    height: 5vw;
+    width: 5vw;
+    border-style: solid;
+    border-color: black;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    margin-left: 50vw;
+  }
+
+  #arrow:hover {
+    border-bottom-width: 4px;
+    border-right-width: 4px;
+  }
+
+  #spacer1 {
+    padding-top: 5vh;
   }
